@@ -20,6 +20,7 @@ class _HomePageState extends State<HomePage> {
     _loadData().then((value) {
       setState(() {
         data = value;
+        // some changes
       });
     });
     print("*********************************************");
